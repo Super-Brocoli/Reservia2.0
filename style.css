@@ -49,6 +49,46 @@ span .header__nav__li--sign{
     width: 1500px;
     margin: auto;
 }
+.section_h1, .section__p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* SEARCH INPUT */
+.section__div{
+    display: flex;
+}
+.localInput--div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.divSearch{
+    display: inline-block;
+    width: 130px;
+    color: #fff;
+    background-color: #0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.searchInput{
+    width: 210px;
+    padding-left: 15px;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+.searchIcon{
+    display: none;
+}
 /* Footer */
 
 
