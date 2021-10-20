@@ -24,13 +24,25 @@
     width: 170px;
     height: 80px;
 }
-.header__nav__li{
-    width: 250px;
+span .header__nav__li{
+    display: inline-block;
+    width: 160px;
     text-align: center;
+    padding: 15px;
+    padding-top: 30px;
 }
-.header__nav__li--sign{
-    width: 250px;
+span .header__nav__li:hover{
+    border-top: #0065FC solid 3px;
+    color: #0065FC;
+    padding-top: 27px;
+}
+span .header__nav__li--sign{
+    display: inline-block;
+    width: 160px;
     text-align: center;
+    color: #0065FC;
+    padding: 15px;
+    padding-top: 30px;
 }
 /* Body */
 .main{
