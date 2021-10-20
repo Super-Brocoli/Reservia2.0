@@ -110,16 +110,6 @@ span .header__nav__li--sign{
 .section__div2__div{
     display: flex;
 }
-.section__div2__div__div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: solid #F2F2F2 2px;
-    border-top: solid #F2F2F2 2px;
-    border-bottom: solid #F2F2F2 2px;
-    border-radius: 50px;
-    margin-right: 20px;
-}
 .section__div2__div__div__span{
     display: flex;
     justify-content: center;
@@ -129,16 +119,36 @@ span .header__nav__li--sign{
     border-radius: 50%;
     background-color: #DEEBFF;
     border: solid #DEEBFF ;
+    cursor: pointer;
 }
 .blue{
     color: #0065FC;
     font-size: 1.2em;
+    cursor: pointer;
 }
 .section__div2__div__div__p{
     padding-left: 25px;
     padding-right: 25px;
     font-weight: bold;
+    cursor: pointer;
 }
+.section__div2__div__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid #F2F2F2 2px;
+    border-top: solid #F2F2F2 2px;
+    border-bottom: solid #F2F2F2 2px;
+    border-radius: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.section__div2__div__div:hover{
+    color: #fff;
+    background-color: #0065FC;
+    transition: 0.5s;
+}
+
 /* Footer */
 
 
