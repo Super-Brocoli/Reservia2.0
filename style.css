@@ -6,6 +6,7 @@
     padding: 0;
     /* bleu #0065FC */
     /* gris #F2F2F2 */
+    /* bleu clair #DEEBFF */
 }
 .bold{
     font-weight: bold;
@@ -21,8 +22,9 @@
     justify-content: space-between;
 }
 .header__div__img{
-    width: 170px;
-    height: 80px;
+    width: 150px;
+    height: 60px;
+    margin-top: 15px;
 }
 span .header__nav__li{
     display: inline-block;
@@ -79,6 +81,10 @@ span .header__nav__li--sign{
     border-bottom-right-radius: 15px;
     font-weight: bold;
     font-size: 1.1em;
+    cursor: pointer;
+}
+.divSearch p{
+    cursor: pointer;
 }
 .searchInput{
     width: 210px;
@@ -88,6 +94,50 @@ span .header__nav__li--sign{
 }
 .searchIcon{
     display: none;
+}
+/* FAMILLE */
+.section__div2{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    display: flex;
+}
+.section__div2__p{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.section__div2__div{
+    display: flex;
+}
+.section__div2__div__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid #F2F2F2 2px;
+    border-top: solid #F2F2F2 2px;
+    border-bottom: solid #F2F2F2 2px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.section__div2__div__div__span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    border: solid #DEEBFF ;
+}
+.blue{
+    color: #0065FC;
+    font-size: 1.2em;
+}
+.section__div2__div__div__p{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
 }
 /* Footer */
 
