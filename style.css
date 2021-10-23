@@ -19,6 +19,7 @@
 }
 /* Header */
 .header{
+    width: 1440px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -190,7 +191,7 @@ span .header__nav__li--sign{
     height: 350px;
     border-radius: 25px;
     margin: 35px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.35);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.35);
       /* Retourner carte */
     transform-style: preserve-3d;
     transition: all 0.5s ease;  
@@ -234,7 +235,7 @@ span .header__nav__li--sign{
 .aside{
     background-color: #e6e6e6;
     border-radius: 25px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.35);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.35);
 }
 .aside__div{
     display: flex;
@@ -244,7 +245,7 @@ span .header__nav__li--sign{
     margin-top: 45px;
 }
 .aside__div__h2{
-    margin-top: 25px;
+    margin-top: 50px;
 }
 .aside__div__div{
     display: flex;
@@ -252,7 +253,7 @@ span .header__nav__li--sign{
     justify-self: center;
     margin-left: 50px;
     font-size: 1.5em;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 .aside__div2{
     display: flex;
@@ -266,7 +267,7 @@ span .header__nav__li--sign{
     border-radius: 25px;
     object-fit: cover;
     background-color: #fff;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.35);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.35);
     cursor: pointer;
 }
 .aside__div2__asideCard__img{
@@ -283,6 +284,67 @@ span .header__nav__li--sign{
 }
 .asideCard__figcaption__p{
     margin: 15px 0px 15px 0px;
+}
+/* Activités à Marseille */
+.section3{
+    margin: 100px 0px 100px 0px;
+}
+.section3__h2{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.section3__div{
+    display: flex;
+    justify-content: space-between;
+}
+.activityCard{
+    width: 320px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.35);
+}
+.activityCard__img{
+    width: 320px;
+    height: 450px;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.div_activityCard{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.S--activityCard{
+    width: 320px;
+    height: 180px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.35);
+}
+.M--activityCard{
+    width: 320px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.35);
+}
+.S--activityCard__img{
+    object-fit: cover;
+    width: 320px;
+    height: 130px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.M--activityCard__img{
+    object-fit: cover;
+    width: 320px;
+    height: 230px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.activityCard__figcaption h3{
+    text-align: center;
+    margin-top: 10px;
 }
 /* Footer */
 .footer{
