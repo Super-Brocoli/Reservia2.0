@@ -11,12 +11,14 @@
 .bold{
     font-weight: bold;
 }
+#blocPage{
+    width: 1440;
+}
 .lightgray{
     color: rgb(167, 167, 167);
 }
 /* Header */
 .header{
-    width: 1440px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -282,3 +284,22 @@ span .header__nav__li--sign{
 .asideCard__figcaption__p{
     margin: 15px 0px 15px 0px;
 }
+/* Footer */
+.footer{
+    border-top: solid lightgray 2px;
+    background-color: #e6e6e6;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__div{
+    height: 220px;   
+    margin: 0px 75px 0px 75px;
+}
+.footer__div h3, .footer__div p{
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    width: 250px;
+}
+
