@@ -146,7 +146,7 @@ span .header__nav__li--sign{
 .section__div2__div__div:hover{
     color: #fff;
     background-color: #0065FC;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 /* Logements */
 .section__div3{
@@ -191,7 +191,7 @@ span .header__nav__li--sign{
     box-shadow: 0 5px 20px rgba(0,0,0,0.35);
       /* Retourner carte */
     transform-style: preserve-3d;
-    transition: all 0.7s ease;  
+    transition: all 0.5s ease;  
     position: relative;
 }
 .card:hover{
@@ -228,5 +228,57 @@ span .header__nav__li--sign{
     justify-content: center;
     align-items: center;
 }
-
-
+/* Aside */
+.aside{
+    background-color: #e6e6e6;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.35);
+}
+.aside__div{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 45px;
+}
+.aside__div__h2{
+    margin-top: 25px;
+}
+.aside__div__div{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-left: 50px;
+    font-size: 1.5em;
+    margin-top: 25px;
+}
+.aside__div2{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px 50px 0px;
+}
+.aside__div2__asideCard{
+    display: flex;
+    width: 430px;
+    height: 200px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-color: #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.35);
+    cursor: pointer;
+}
+.aside__div2__asideCard__img{
+    width: 150px;
+    height: 95%;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 5px;
+}
+.aside__div2__asideCard__figcaption{
+    font-size: 0.8em;
+    margin: auto;
+}
+.asideCard__figcaption__p{
+    margin: 15px 0px 15px 0px;
+}
